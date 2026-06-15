@@ -1,0 +1,71 @@
+.card{
+    width: 500px;
+    border: 3px darkgrey dotted;
+    margin: 80px 10px;
+    padding: 6px 6px 6px 2px;
+}
+.imag{
+    height: 200px;
+    width: 120px;
+    border: 2px black double;
+}
+.block{
+    padding: 10px 19px;
+    display: block;
+}
+.inL{
+    display: inline;
+    color: rgba(3, 6, 36, 0.377);
+}
+.inL-block{
+    padding: 10px 19px;
+    display: inline-block;
+}
+.nOn{
+    padding: 10px 19px;
+    display: none;
+}
+.visible{
+    height: 150px;
+    width: 200px;
+    border: 2px black dotted;
+    overflow: visible;
+    display: inline-block;
+}
+.hidden{
+    border: 2px black dotted;
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+}
+.scroll{
+    border: 2px black dotted;
+    height: 150px;
+    width: 200px;
+    overflow: scroll;
+    display: inline-block;
+}
+.auto{
+    border: 2px black dotted;
+    height: 150px;
+    width: 200px;
+    overflow: auto;
+    display: inline-block;
+}
+.content-box{
+    box-sizing: content-box;
+    height: 300px;
+    width: 800px;
+    border: 4px black dotted;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.border-box{
+    box-sizing: border-box;
+    height: 300px;
+    width: 800px;
+    border: 4px black dotted;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
